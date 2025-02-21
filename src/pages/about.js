@@ -4,8 +4,8 @@ import Layout from '../components/layout'
 const myIndex = () => {
 return(
 <div>
-  <Layout pageTitle="HomePage">
-    <p>my index page</p>    
+  <Layout pageTitle="About">
+    <p>about us page</p>    
   </Layout>
 </div>
 )}
