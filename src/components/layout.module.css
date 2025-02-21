@@ -18,3 +18,12 @@
   .navLinkText {
     color: rgb(172, 17, 17);
   }
+
+  /* ... your existing styles */
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
+}
