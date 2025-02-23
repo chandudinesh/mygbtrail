@@ -1,19 +1,20 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import {StaticImage} from 'gatsby-plugin-image'
+import Seo from '../components/seo'
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Love you CB">
-      <p>Hello Sravanthi .. I'm making this by following the Gatsby Tutorial.</p>
+    <Layout pageTitle="Home page">
+      <p>Hello...  I'm making this by following the Gatsby Tutorial.</p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="../images/file.webp"
+        src="../images/icon.png"
         />
     </Layout>
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <Seo title="Home page"/>
 
 export default IndexPage
